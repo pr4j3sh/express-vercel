@@ -1,12 +1,21 @@
 {
   "name": "express-vercel",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "api/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Running tests..\" && exit 1",
+    "start": "node --env-file=.env .",
+    "dev": "nodemon --env-file=.env ."
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "author": "Prajesh Pratap Singh <prajesh.eleven118@gmail.com> (https://pr4j3sh.vercel.app/)",
+  "license": "MIT",
+  "description": "express backend server vercel deployable template",
+  "dependencies": {
+    "exhandlers": "^1.0.8",
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
 }
