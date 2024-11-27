@@ -12,7 +12,7 @@
   "license": "MIT",
   "description": "express backend server vercel deployable template",
   "dependencies": {
-    "exhandlers": "^1.0.8",
+    "exhandlers": "^1.0.9",
     "express": "^4.21.1"
   },
   "devDependencies": {

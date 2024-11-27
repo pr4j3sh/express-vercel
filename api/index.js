@@ -8,6 +8,7 @@ const {
 const express = require("express");
 
 const port = process.env.PORT;
+const hostname = process.env.HOSTNAME;
 const origins = process.env.ORIGINS;
 
 const server = express();
@@ -29,8 +30,8 @@ server.get(
 server.use(notFoundHandler);
 server.use(errorHandler);
 
-server.listen(port, () => {
-  console.log(`server running @ port ${port}`);
+server.listen(port, hostname, () => {
+  console.log(`server running @ http://${hostname}:${port}`);
 });
 
 module.exports = server;
