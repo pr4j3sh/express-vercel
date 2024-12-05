@@ -1,4 +1,4 @@
-# Express Vercel Template
+# Express + Vercel
 
 This is an express js vercel deployable template, pre-integrated with utilities, so that you can focus on creating API(s).
 
@@ -15,6 +15,8 @@ npm create @pr4j3sh/frames@latest express-vercel myserver
 ```bash
 npm run dev
 ```
+
+- Make a `GET` request @ `http://0.0.0.0:3000/`
 
 ## References
 
