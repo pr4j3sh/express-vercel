@@ -8,7 +8,7 @@
     "dev": "nodemon --env-file=.env ."
   },
   "keywords": [],
-  "author": "Prajesh Pratap Singh <prajesh.eleven118@gmail.com> (https://pr4j3sh.vercel.app/)",
+  "author": "Prajesh Pratap Singh <prajesh.eleven118@gmail.com> (https://pr4j3sh.github.io/pr4j3sh/)",
   "license": "MIT",
   "description": "express backend server vercel deployable template",
   "dependencies": {
