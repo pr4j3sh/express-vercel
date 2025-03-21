@@ -12,8 +12,8 @@
   "license": "MIT",
   "description": "express backend server vercel deployable template",
   "dependencies": {
-    "exhandlers": "^1.0.9",
-    "express": "^4.21.1"
+    "exhandlers": "^1.1.1",
+    "express": "^4.21.2"
   },
   "devDependencies": {
     "nodemon": "^3.1.7"
